@@ -1,0 +1,122 @@
+{
+  "DecisionTree": {
+    "accuracy": 0.6744,
+    "precision": 0.147,
+    "recall": 0.8528,
+    "f1_score": 0.2507,
+    "cv_f1_score": 0.2192,
+    "confusion_matrix": [
+      [
+        1912,
+        975
+      ],
+      [
+        29,
+        168
+      ]
+    ],
+    "fraud_precision": 0.147,
+    "fraud_recall": 0.8528,
+    "fraud_f1": 0.2507
+  },
+  "LogisticRegression": {
+    "accuracy": 0.678,
+    "precision": 0.1414,
+    "recall": 0.797,
+    "f1_score": 0.2402,
+    "cv_f1_score": 0.2229,
+    "confusion_matrix": [
+      [
+        1934,
+        953
+      ],
+      [
+        40,
+        157
+      ]
+    ],
+    "fraud_precision": 0.1414,
+    "fraud_recall": 0.797,
+    "fraud_f1": 0.2402
+  },
+  "MLPClassifier": {
+    "accuracy": 0.9021,
+    "precision": 0.1856,
+    "recall": 0.1574,
+    "f1_score": 0.1703,
+    "cv_f1_score": 0.1616,
+    "confusion_matrix": [
+      [
+        2751,
+        136
+      ],
+      [
+        166,
+        31
+      ]
+    ],
+    "fraud_precision": 0.1856,
+    "fraud_recall": 0.1574,
+    "fraud_f1": 0.1703
+  },
+  "NaiveBayes": {
+    "accuracy": 0.1738,
+    "precision": 0.068,
+    "recall": 0.9391,
+    "f1_score": 0.1268,
+    "cv_f1_score": 0.1134,
+    "confusion_matrix": [
+      [
+        351,
+        2536
+      ],
+      [
+        12,
+        185
+      ]
+    ],
+    "fraud_precision": 0.068,
+    "fraud_recall": 0.9391,
+    "fraud_f1": 0.1268
+  },
+  "RandomForest": {
+    "accuracy": 0.8544,
+    "precision": 0.1942,
+    "recall": 0.4061,
+    "f1_score": 0.2627,
+    "cv_f1_score": 0.2372,
+    "confusion_matrix": [
+      [
+        2555,
+        332
+      ],
+      [
+        117,
+        80
+      ]
+    ],
+    "fraud_precision": 0.1942,
+    "fraud_recall": 0.4061,
+    "fraud_f1": 0.2627
+  },
+  "XGBoost": {
+    "accuracy": 0.9137,
+    "precision": 0.2934,
+    "recall": 0.2487,
+    "f1_score": 0.2692,
+    "cv_f1_score": 0.1426,
+    "confusion_matrix": [
+      [
+        2769,
+        118
+      ],
+      [
+        148,
+        49
+      ]
+    ],
+    "fraud_precision": 0.2934,
+    "fraud_recall": 0.2487,
+    "fraud_f1": 0.2692
+  }
+}
