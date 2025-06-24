@@ -26,8 +26,8 @@ An interactive web application to detect fraudulent vehicle insurance claims usi
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/fraud-detection-app.git
-cd fraud-detection-app
+git clone https://github.com/nitinbharadwajnataraj/Fraud-Detection-Dash-App.git
+cd Fraud-Detection-Dash-App
 ```
 
 2. **Create virtual environment and install dependencies**
@@ -59,26 +59,33 @@ python app.py
 - 📥 [Download Docker Desktop](https://www.docker.com/products/docker-desktop)
 - ✅ Install and launch Docker
 
-2. **Build the Docker Image**
+2. **Clone the repository**
 
 ```bash
-docker build -t fraud-detection-app .
+git clone https://github.com/nitinbharadwajnataraj/Fraud-Detection-Dash-App.git
+cd Fraud-Detection-Dash-App
 ```
 
-3. **Run the App**
+3. **Build the Docker Image**
 
 ```bash
-docker run -d -p 8050:8050 -p 8000:8000 fraud-detection-app
+docker build -t fraud-detection-dash-app .
+```
+
+4. **Run the App**
+
+```bash
+docker run -d -p 8050:8050 -p 8000:8000 fraud-detection-dash-app
 ```
 
 - Open [http://localhost:8050](http://localhost:8050) for the Dash UI
 - Open [http://localhost:8000/docs](http://localhost:8000/docs) for FastAPI endpoints
 
-4. **Stop the Container**
+5. **Stop the Container**
 
 ```bash
 docker ps            # List containers
-docker stop <id>     # Stop container
+docker stop <container_id>     # Stop container
 ```
 
 ---
