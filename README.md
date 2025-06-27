@@ -1,5 +1,5 @@
 
-# Fraud Detection Dashboard (Dash + FastAPI)
+# Fraud Detection in Vehicle Insurance 
 
 An interactive web application to detect fraudulent vehicle insurance claims using machine learning. The project integrates:
 
